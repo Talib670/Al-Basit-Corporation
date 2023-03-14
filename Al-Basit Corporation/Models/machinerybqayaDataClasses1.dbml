@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Albbasitcorporation" Class="machinerybqayaDataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=Albbasitcorporation;Integrated Security=True" SettingsObjectName="Al_Basit_Corporation.Properties.Settings" SettingsPropertyName="AlbbasitcorporationConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.machinerybqayaamount" Member="machinerybqayaamounts">
+    <Type Name="machinerybqayaamount">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="namemachinery" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="bqayaamount" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

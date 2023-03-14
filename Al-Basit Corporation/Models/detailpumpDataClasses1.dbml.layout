@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="detailpumpDataClasses1">
+  <DataContextMoniker Name="/detailpumpDataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="4bfab32a-3fae-4851-a667-ada08991d03e" absoluteBounds="4, 2.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/detailpumpDataClasses1DataContext/tblpetroldetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="387d2056-8c1c-4007-be52-a9292baab48d" absoluteBounds="4.015, 2.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

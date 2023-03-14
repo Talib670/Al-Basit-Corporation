@@ -1,0 +1,93 @@
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\bin\Debug\Al-Basit Corporation.exe.config
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\bin\Debug\Al-Basit Corporation.exe
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\bin\Debug\Al-Basit Corporation.pdb
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Properties.Resources.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.defaultForm.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Investres.investerForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.reportdefaultForm.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al-Basit Corporation.csproj.GenerateResource.cache
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al-Basit Corporation.exe
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al-Basit Corporation.pdb
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Investres.investerReportsForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Investres.newinvesterForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Investres.detailinvesterForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Form4.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Bank_Account.BankForm.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Bank_Account.bankreportForm.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Bank_Account.detailbankForm.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Bank_Account.NewBankForm.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Petrol_Pump_Accounts.detailpumpForm.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Petrol_Pump_Accounts.newpupmForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Petrol_Pump_Accounts.PetrolPumpForm.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Petrol_Pump_Accounts.pumpreportForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Client_Accounts.ClientsFormForm.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Client_Accounts.clientsreportsForm.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Client_Accounts.detailclientForm.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Client_Accounts.newclientorm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Genral_Purchase.genralpurchaseForm.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Genral_Purchase.reportsForm.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Machinery_Account.MachineryForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Machinery_Account.reportsmachineryForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Employee_Accounts.detailemployeForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Employee_Accounts.employeeForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Employee_Accounts.employeereportForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Employee_Accounts.newemployeForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Factory_Accounts.detailForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Factory_Accounts.factoryForm.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Factory_Accounts.newfactoryForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Factory_Accounts.reportsfactoryForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Purchase_Account.PurchaseForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Purchase_Account.TotalpurchaseForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Sale_Accounts.reportsaleForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Sale_Accounts.SaleForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.DashboaredForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.LoginForm1.resources
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al-Basit Corporation.csproj.CoreCompileInputs.cache
+C:\Users\Al Basit Stores\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Bank_Account.testForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\bin\Debug\Al-Basit Corporation.exe.config
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\bin\Debug\Al-Basit Corporation.exe
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\bin\Debug\Al-Basit Corporation.pdb
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al-Basit Corporation.csproj.AssemblyReference.cache
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Properties.Resources.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Bank_Account.BankForm.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Bank_Account.bankreportForm.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Bank_Account.detailbankForm.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Bank_Account.testForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Bank_Account.NewBankForm.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Client_Accounts.ClientsFormForm.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Client_Accounts.clientsreportsForm.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Client_Accounts.detailclientForm.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Client_Accounts.newclientorm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.DashboaredForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.defaultForm.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Employee_Accounts.detailemployeForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Employee_Accounts.employeeForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Employee_Accounts.employeereportForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Employee_Accounts.newemployeForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Factory_Accounts.detailForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Factory_Accounts.factoryForm.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Factory_Accounts.newfactoryForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Factory_Accounts.reportsfactoryForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Form4.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Genral_Purchase.genralpurchaseForm.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Genral_Purchase.reportsForm.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Investres.detailinvesterForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Investres.investerForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Investres.investerReportsForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Investres.newinvesterForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.LoginForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Machinery_Account.MachineryForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Machinery_Account.reportsmachineryForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Petrol_Pump_Accounts.detailpumpForm.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Petrol_Pump_Accounts.newpupmForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Petrol_Pump_Accounts.PetrolPumpForm.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Petrol_Pump_Accounts.pumpreportForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Purchase_Account.PurchaseForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Purchase_Account.TotalpurchaseForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.reportdefaultForm.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Sale_Accounts.reportsaleForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al_Basit_Corporation.Screens.Sale_Accounts.SaleForm1.resources
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al-Basit Corporation.csproj.GenerateResource.cache
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al-Basit Corporation.csproj.CoreCompileInputs.cache
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al-Basit Corporation.exe
+C:\Munir Ahmad Programming\Soft Source Code\All OLD Project\source\repos\Al-Basit Corporation\Al-Basit Corporation\obj\Debug\Al-Basit Corporation.pdb

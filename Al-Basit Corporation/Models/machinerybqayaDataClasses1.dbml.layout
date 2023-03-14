@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="machinerybqayaDataClasses1">
+  <DataContextMoniker Name="/machinerybqayaDataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="10b4136e-8976-4ef6-acf1-877586758d60" absoluteBounds="4.75, 2.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/machinerybqayaDataClasses1DataContext/machinerybqayaamount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="08e3b606-c272-4fc9-9c43-13f4502d79a4" absoluteBounds="4.765, 2.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

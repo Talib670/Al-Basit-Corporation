@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="bqayaproductDataClasses1">
+  <DataContextMoniker Name="/bqayaproductDataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="e4e46609-3f07-4967-bd97-0d53cc186c7d" absoluteBounds="4, 2.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/bqayaproductDataClasses1DataContext/productbqayaamount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="81b99ed9-77dc-4e7e-8097-ff3a27754ce2" absoluteBounds="4.015, 2.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

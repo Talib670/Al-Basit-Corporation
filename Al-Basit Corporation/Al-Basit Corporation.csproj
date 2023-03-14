@@ -1,0 +1,759 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6A7264BE-A55B-4593-9F21-E9ACB370598C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Al_Basit_Corporation</RootNamespace>
+    <AssemblyName>Al-Basit Corporation</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\bankbqayaDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bankbqayaDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\bankDataClasses.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bankDataClasses.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\bankdetailDataClasses.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bankdetailDataClasses.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\bqayaemployeeDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bqayaemployeeDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\bqayafactryDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bqayafactryDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\bqayaproductDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bqayaproductDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\clientbqayaDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clientbqayaDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\clientDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clientDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\clientdetailDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clientdetailDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DecHelper.cs" />
+    <Compile Include="Models\detailemployeeDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>detailemployeeDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\detailfactoryDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>detailfactoryDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\detailpumpDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>detailpumpDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\employeeDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>employeeDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\factoryDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>factoryDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\genralpurchaseDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>genralpurchaseDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\investerbqayaDataClasses.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>investerbqayaDataClasses.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\investerDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>investerDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\investerdetailDataClasses.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>investerdetailDataClasses.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\machinerybqayaDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>machinerybqayaDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\machineryDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>machineryDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\petrolbqayaDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>petrolbqayaDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\petrolDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>petrolDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\productDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>productDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\saleproductDataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>saleproductDataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screens\Bank Account\BankForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Bank Account\BankForm.Designer.cs">
+      <DependentUpon>BankForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Bank Account\bankreportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Bank Account\bankreportForm.Designer.cs">
+      <DependentUpon>bankreportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Bank Account\detailbankForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Bank Account\detailbankForm.Designer.cs">
+      <DependentUpon>detailbankForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Bank Account\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Bank Account\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Bank Account\NewBankForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Bank Account\NewBankForm.Designer.cs">
+      <DependentUpon>NewBankForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Client Accounts\ClientsFormForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Client Accounts\ClientsFormForm.Designer.cs">
+      <DependentUpon>ClientsFormForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Client Accounts\clientsreportsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Client Accounts\clientsreportsForm.Designer.cs">
+      <DependentUpon>clientsreportsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Client Accounts\detailclientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Client Accounts\detailclientForm.Designer.cs">
+      <DependentUpon>detailclientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Client Accounts\newclientorm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Client Accounts\newclientorm1.Designer.cs">
+      <DependentUpon>newclientorm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\DashboaredForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\DashboaredForm1.Designer.cs">
+      <DependentUpon>DashboaredForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\defaultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\defaultForm.Designer.cs">
+      <DependentUpon>defaultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Employee Accounts\detailemployeForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Employee Accounts\detailemployeForm1.Designer.cs">
+      <DependentUpon>detailemployeForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Employee Accounts\employeeForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Employee Accounts\employeeForm1.Designer.cs">
+      <DependentUpon>employeeForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Employee Accounts\employeereportForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Employee Accounts\employeereportForm1.Designer.cs">
+      <DependentUpon>employeereportForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Employee Accounts\newemployeForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Employee Accounts\newemployeForm1.Designer.cs">
+      <DependentUpon>newemployeForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Factory Accounts\detailForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Factory Accounts\detailForm1.Designer.cs">
+      <DependentUpon>detailForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Factory Accounts\factoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Factory Accounts\factoryForm.Designer.cs">
+      <DependentUpon>factoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Factory Accounts\newfactoryForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Factory Accounts\newfactoryForm1.Designer.cs">
+      <DependentUpon>newfactoryForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Factory Accounts\reportsfactoryForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Factory Accounts\reportsfactoryForm1.Designer.cs">
+      <DependentUpon>reportsfactoryForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Genral Purchase\genralpurchaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Genral Purchase\genralpurchaseForm.Designer.cs">
+      <DependentUpon>genralpurchaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Genral Purchase\reportsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Genral Purchase\reportsForm.Designer.cs">
+      <DependentUpon>reportsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Investres\detailinvesterForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Investres\detailinvesterForm1.Designer.cs">
+      <DependentUpon>detailinvesterForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Investres\investerForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Investres\investerForm1.Designer.cs">
+      <DependentUpon>investerForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Investres\investerReportsForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Investres\investerReportsForm1.Designer.cs">
+      <DependentUpon>investerReportsForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Investres\newinvesterForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Investres\newinvesterForm1.Designer.cs">
+      <DependentUpon>newinvesterForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\LoginForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\LoginForm1.Designer.cs">
+      <DependentUpon>LoginForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Machinery Account\MachineryForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Machinery Account\MachineryForm1.Designer.cs">
+      <DependentUpon>MachineryForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Machinery Account\reportsmachineryForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Machinery Account\reportsmachineryForm1.Designer.cs">
+      <DependentUpon>reportsmachineryForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Petrol Pump Accounts\detailpumpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Petrol Pump Accounts\detailpumpForm.Designer.cs">
+      <DependentUpon>detailpumpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Petrol Pump Accounts\newpupmForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Petrol Pump Accounts\newpupmForm1.Designer.cs">
+      <DependentUpon>newpupmForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Petrol Pump Accounts\PetrolPumpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Petrol Pump Accounts\PetrolPumpForm.Designer.cs">
+      <DependentUpon>PetrolPumpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Petrol Pump Accounts\pumpreportForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Petrol Pump Accounts\pumpreportForm1.Designer.cs">
+      <DependentUpon>pumpreportForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Purchase Account\PurchaseForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Purchase Account\PurchaseForm1.Designer.cs">
+      <DependentUpon>PurchaseForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Purchase Account\TotalpurchaseForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Purchase Account\TotalpurchaseForm1.Designer.cs">
+      <DependentUpon>TotalpurchaseForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\reportdefaultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\reportdefaultForm.Designer.cs">
+      <DependentUpon>reportdefaultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Sale Accounts\reportsaleForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Sale Accounts\reportsaleForm1.Designer.cs">
+      <DependentUpon>reportsaleForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Sale Accounts\SaleForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\Sale Accounts\SaleForm1.Designer.cs">
+      <DependentUpon>SaleForm1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Screens\Bank Account\BankForm.resx">
+      <DependentUpon>BankForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Bank Account\bankreportForm.resx">
+      <DependentUpon>bankreportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Bank Account\detailbankForm.resx">
+      <DependentUpon>detailbankForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Bank Account\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Bank Account\NewBankForm.resx">
+      <DependentUpon>NewBankForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Client Accounts\ClientsFormForm.resx">
+      <DependentUpon>ClientsFormForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Client Accounts\clientsreportsForm.resx">
+      <DependentUpon>clientsreportsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Client Accounts\detailclientForm.resx">
+      <DependentUpon>detailclientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Client Accounts\newclientorm1.resx">
+      <DependentUpon>newclientorm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\DashboaredForm1.resx">
+      <DependentUpon>DashboaredForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\defaultForm.resx">
+      <DependentUpon>defaultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Employee Accounts\detailemployeForm1.resx">
+      <DependentUpon>detailemployeForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Employee Accounts\employeeForm1.resx">
+      <DependentUpon>employeeForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Employee Accounts\employeereportForm1.resx">
+      <DependentUpon>employeereportForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Employee Accounts\newemployeForm1.resx">
+      <DependentUpon>newemployeForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Factory Accounts\detailForm1.resx">
+      <DependentUpon>detailForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Factory Accounts\factoryForm.resx">
+      <DependentUpon>factoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Factory Accounts\newfactoryForm1.resx">
+      <DependentUpon>newfactoryForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Factory Accounts\reportsfactoryForm1.resx">
+      <DependentUpon>reportsfactoryForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Genral Purchase\genralpurchaseForm.resx">
+      <DependentUpon>genralpurchaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Genral Purchase\reportsForm.resx">
+      <DependentUpon>reportsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Investres\detailinvesterForm1.resx">
+      <DependentUpon>detailinvesterForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Investres\investerForm1.resx">
+      <DependentUpon>investerForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Investres\investerReportsForm1.resx">
+      <DependentUpon>investerReportsForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Investres\newinvesterForm1.resx">
+      <DependentUpon>newinvesterForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\LoginForm1.resx">
+      <DependentUpon>LoginForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Machinery Account\MachineryForm1.resx">
+      <DependentUpon>MachineryForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Machinery Account\reportsmachineryForm1.resx">
+      <DependentUpon>reportsmachineryForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Petrol Pump Accounts\detailpumpForm.resx">
+      <DependentUpon>detailpumpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Petrol Pump Accounts\newpupmForm1.resx">
+      <DependentUpon>newpupmForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Petrol Pump Accounts\PetrolPumpForm.resx">
+      <DependentUpon>PetrolPumpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Petrol Pump Accounts\pumpreportForm1.resx">
+      <DependentUpon>pumpreportForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Purchase Account\PurchaseForm1.resx">
+      <DependentUpon>PurchaseForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Purchase Account\TotalpurchaseForm1.resx">
+      <DependentUpon>TotalpurchaseForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\reportdefaultForm.resx">
+      <DependentUpon>reportdefaultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Sale Accounts\reportsaleForm1.resx">
+      <DependentUpon>reportsaleForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\Sale Accounts\SaleForm1.resx">
+      <DependentUpon>SaleForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Models\bankbqayaDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>bankbqayaDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\bankbqayaDataClasses1.dbml.layout">
+      <DependentUpon>bankbqayaDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\bankDataClasses.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>bankDataClasses.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\bankDataClasses.dbml.layout">
+      <DependentUpon>bankDataClasses.dbml</DependentUpon>
+    </None>
+    <None Include="Models\bankdetailDataClasses.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>bankdetailDataClasses.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\bankdetailDataClasses.dbml.layout">
+      <DependentUpon>bankdetailDataClasses.dbml</DependentUpon>
+    </None>
+    <None Include="Models\bqayaemployeeDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>bqayaemployeeDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\bqayaemployeeDataClasses1.dbml.layout">
+      <DependentUpon>bqayaemployeeDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\bqayafactryDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>bqayafactryDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\bqayafactryDataClasses1.dbml.layout">
+      <DependentUpon>bqayafactryDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\bqayaproductDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>bqayaproductDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\bqayaproductDataClasses1.dbml.layout">
+      <DependentUpon>bqayaproductDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\clientbqayaDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>clientbqayaDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\clientbqayaDataClasses1.dbml.layout">
+      <DependentUpon>clientbqayaDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\clientDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>clientDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\clientDataClasses1.dbml.layout">
+      <DependentUpon>clientDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\clientdetailDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>clientdetailDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\clientdetailDataClasses1.dbml.layout">
+      <DependentUpon>clientdetailDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\DataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\DataClasses1.dbml.layout">
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\detailemployeeDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>detailemployeeDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\detailemployeeDataClasses1.dbml.layout">
+      <DependentUpon>detailemployeeDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\detailfactoryDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>detailfactoryDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\detailfactoryDataClasses1.dbml.layout">
+      <DependentUpon>detailfactoryDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\detailpumpDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>detailpumpDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\detailpumpDataClasses1.dbml.layout">
+      <DependentUpon>detailpumpDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\employeeDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>employeeDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\employeeDataClasses1.dbml.layout">
+      <DependentUpon>employeeDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\factoryDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>factoryDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\factoryDataClasses1.dbml.layout">
+      <DependentUpon>factoryDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\genralpurchaseDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>genralpurchaseDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\genralpurchaseDataClasses1.dbml.layout">
+      <DependentUpon>genralpurchaseDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\investerbqayaDataClasses.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>investerbqayaDataClasses.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\investerbqayaDataClasses.dbml.layout">
+      <DependentUpon>investerbqayaDataClasses.dbml</DependentUpon>
+    </None>
+    <None Include="Models\investerDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>investerDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\investerDataClasses1.dbml.layout">
+      <DependentUpon>investerDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\investerdetailDataClasses.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>investerdetailDataClasses.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\investerdetailDataClasses.dbml.layout">
+      <DependentUpon>investerdetailDataClasses.dbml</DependentUpon>
+    </None>
+    <None Include="Models\machinerybqayaDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>machinerybqayaDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\machinerybqayaDataClasses1.dbml.layout">
+      <DependentUpon>machinerybqayaDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\machineryDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>machineryDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\machineryDataClasses1.dbml.layout">
+      <DependentUpon>machineryDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\petrolbqayaDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>petrolbqayaDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\petrolbqayaDataClasses1.dbml.layout">
+      <DependentUpon>petrolbqayaDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\petrolDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>petrolDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\petrolDataClasses1.dbml.layout">
+      <DependentUpon>petrolDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\productDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>productDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\productDataClasses1.dbml.layout">
+      <DependentUpon>productDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Models\saleproductDataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>saleproductDataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Models\saleproductDataClasses1.dbml.layout">
+      <DependentUpon>saleproductDataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office-Client-Male-Light-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bank-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

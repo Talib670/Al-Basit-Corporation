@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Albbasitcorporation" Class="detailpumpDataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=Albbasitcorporation;Integrated Security=True" SettingsObjectName="Al_Basit_Corporation.Properties.Settings" SettingsPropertyName="AlbbasitcorporationConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblpetroldetail" Member="tblpetroldetails">
+    <Type Name="tblpetroldetail">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[Station Name]" Member="Station_Name" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="[Owner Name]" Member="Owner_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Account No]" Member="Account_No" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Adress" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
